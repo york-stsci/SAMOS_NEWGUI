@@ -6406,7 +6406,7 @@ class MainPage(tk.Frame):
 #        ys=stars[0,1]
 #        center_pix = PixCoord(x=xs, y=ys)
         radius_pix = 42
-#        region = CirclePixelRegion(center_pix, radius_pix)
+#        this_region = CirclePixelRegion(center_pix, radius_pix)
         
         regions = [CirclePixelRegion(center=PixCoord(x, y), radius=radius_pix)
                 for x, y in stars]  #[(1, 2), (3, 4)]]
